@@ -1,0 +1,26 @@
+# XONIBOT 2026 - Dependencias
+# Bot de WhatsApp con DeepSeek
+# Desarrollado por: Darian Alberto Camacho Salas
+# SOMOS XONIDU
+
+# ============================================================
+# DEPENDENCIAS PRINCIPALES
+# ============================================================
+
+# Automatización de GUI (mouse, teclado, pantalla)
+pyautogui>=0.9.54
+
+# Procesamiento de imágenes (opcional, para capturas)
+Pillow>=10.0.0
+
+# ============================================================
+# DEPENDENCIAS DEL SISTEMA (NO incluidas en pip)
+# ============================================================
+
+# Linux: xclip (manejo de portapapeles)
+#   sudo apt install xclip      # Debian/Ubuntu
+#   sudo pacman -S xclip        # Arch/Manjaro
+#   sudo dnf install xclip      # Fedora
+#
+# Windows: no necesita xclip (usa portapapeles nativo)
+# macOS:  brew install xclip    # o usa pbpaste/pbcopy nativo
