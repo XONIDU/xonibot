@@ -5,6 +5,7 @@ WHATSBOT - WhatsApp + DeepSeek
 Guarda ultimas 3 respuestas del bot para NO repetirse
 Espera 3 segundos en DeepSeek
 Delay de 1 seg entre Alt+Tab y click
+Desarrollado por Darian Alberto Camacho Salas
 """
 
 import os
