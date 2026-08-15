@@ -1,4 +1,4 @@
-# 🤖 XONIBOT 2026 - Bot de WhatsApp con DeepSeek
+# 🤖 XONIBOT 2026 - Bot de WhatsApp con IA
 
 **Desarrollado por: Darian Alberto Camacho Salas**  
 **SOMOS XONIDU**
@@ -11,12 +11,28 @@
 
 ---
 
-## 📦 INSTALACIÓN
-
-### Arch Linux (AUR)
+#### 🐧 Arch Linux
 ```bash
-yay -S xonibot
+# Instalar dependencias del sistema
+sudo pacman -Syu python-pip libjpeg-turbo zlib tk
+
+# Instalar dependencias Python
+pip install -r requisitos.txt --break-system-packages
 ```
+
+#### 🐧 Ubuntu / Debian
+```bash
+# Actualizar repositorios
+sudo apt update
+
+# Instalar dependencias del sistema
+sudo apt install python3 python3-pip python3-venv python3-tk libjpeg-dev zlib1g-dev -y
+
+# Instalar dependencias Python
+pip3 install -r requisitos.txt --break-system-packages
+```
+
+---
 
 ### Windows (Instalador)
 ```bash
